@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#767272"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <!-- TextView to show all items -->
+
+<EditText
+    android:id="@+id/plain_text_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/text_size"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:layout_marginBottom="5dp"
+        tools:ignore="DuplicateIds"/>
+
+
+
+
+    <!-- Button to list all items-->
+    <Button
+        android:id="@+id/list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_size"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:background="#36f401"
+        android:textColor="#000000"
+        android:text="@string/list"/>
+
+    <Button
+        android:id="@+id/add_new"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_size"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:background="#36f401"
+        android:textColor="#000000"
+        android:text="@string/add_new"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Garbage Sorting</string>
+    <string name="list">WHERE</string>
+    <string name="add_new">Add new Item</string>
+</resources>
